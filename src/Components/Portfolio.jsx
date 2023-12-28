@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/computer.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = " book and laptop";
 
 /**
  * Project list
@@ -31,29 +31,24 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Computer Vision in a nutshell ",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Wrote a begginer friendly artical on computer vision",
+    url: "https://medium.com/@tanimahmed11/computer-vision-in-a-nutshell-86d12a95b07c",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Object Detector Android App",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Made an object detector model and deployed the model using Tf lite android app.",
+    url: "https://github.com/TnzTanim/Android-App-TFlite-object-detection",
   },
   {
     title: "My Resume Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Built this resume website using canva",
+    url: "https://tnz.my.canva.site/",
   },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+
 ];
 
 const Portfolio = () => {
